@@ -4,4 +4,4 @@
 
 Link to challenge https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page
 
-Live demo to my remake of it: https://loving-curran-864e18.netlify.app
+Live demo to my remake of it: https://lucid-mclean-d4e7bd.netlify.app
