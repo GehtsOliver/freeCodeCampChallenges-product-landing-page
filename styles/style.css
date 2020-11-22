@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 120%;
+}
+
+:root {
+    --color-primary: #F2AA24;
+    --color-secondary: #F97019;
+}
+
+html, body {
+    font-family: "Archivo", "sans-serif";
+    width: 100%;
+
+}
+
+
+/* HEADER */
+
+#header {
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    padding: 1rem 2rem;
+    white-space: nowrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+#header-img{
+    max-width: 20%;
+    height: auto;
+    margin: 0 2rem
+}
+#nav-ul {
+    display: flex;
+    margin-left: 45rem;
+}
+
+.nav-item{
+    list-style: none;
+    padding: 1rem 5rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER END */
+
+/* MAIN */
+
+main {
+    margin-top: 8rem;
+    text-align: center;
+}
+
+#form {
+ margin: 1rem auto;
+ padding: 1rem;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+}
+
+input[type="email"]{
+    width: 20rem;
+    height: 2rem;
+    border-radius: .2rem;
+    margin: 1rem 0;
+    font-weight: 800;
+    padding-left: .5rem;
+}
+
+input[type="submit"]{
+    width: 10rem;
+    height: 2rem;
+    border-radius: .2rem;
+    background-color: var(--color-primary);
+    font-weight: 800;
+}
+
+#features {
+    margin: 8rem 0;
+    font-size: 1.1rem;
+
+}
+
+.features-article {
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto;
+    width: 55%;
+}
+
+.features-article i {
+    color: #F97019;
+    padding: 1rem 1rem;
+    margin-right: 5rem;
+}
+
+.features-article div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 1rem;
+    text-align: left;
+}
+
+/* Pricing */
+
+#pricing{
+    margin: 8rem 0;
+    
+    display: flex;
+    justify-content: center
+
+}
+
+.pricing-article {
+    border: 1px solid black;
+    margin-right: 1rem;
+}
+
+.pricing-article h3 {
+    padding: 1rem 3rem;
+    background-color: var(--color-secondary);
+}
+
+.pricing-article h2 {
+    padding: 1rem;
+}
+
+.pricing-article p {
+    padding: 0.5rem;
+}
+
+.pricing-article button {
+    width: 8rem;
+    height: 2rem;
+    font-weight: 800;
+    background-color: var(--color-primary);
+    margin-bottom: 1.5rem;
+}
+
+/* FOOTER */
+
+#footer {
+ display: flex;
+ justify-content: flex-end;
+ width: 45%;
+ background-color:var(--color-secondary);
+ margin: 0 auto;
+}
+
+#footer-wrapper ul{
+    display: flex;
+}
+
+#footer-wrapper ul li {
+    padding: 1rem;    
+    list-style-type: none;
+}
+
+#footer-wrapper ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#footer-wrapper h6 {
+    margin-bottom: 1rem;
+}
+
+/* FOOTER END */
+
+
+
+@media(max-width: 500px){
+       
+    #header,#logo-wrapper, #nav-bar, #pricing {
+        flex-direction: column;
+    }
+
+    #header {
+        position: static;
+        
+    }
+
+    #nav-ul {
+        margin: 0 auto;
+    }
+
+    iframe{
+        width: 90%;
+    }
+
+    .pricing-article{
+        width: 70%;
+        margin: 1rem auto;
+    }
+
+    #footer {
+        width: 100%;
+    }
+
+
+}

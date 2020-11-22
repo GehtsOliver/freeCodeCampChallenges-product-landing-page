@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <div id="logo-wrapper">
+        <img
+          id="header-img"
+          src="./ressources/trumpet-svgrepo-com.svg"
+          alt="Icon"
+        />
+        <h1>Original Trombones</h1>
+      </div>
+      <nav id="nav-bar">
+        <ul id="nav-ul">
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form id="form" type="submit" action="https://www.freecodecamp.com/email-submit">
+        <h3>Handcrafted, home-made masterpieces</h3>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email address"
+        />
+        <input type="submit" value="Get Started" id="submit"/>
+      </form>
+      <section id="features">
+        <article class="features-article">
+          <i class="fas fa-fire fa-3x"></i>
+          <div>
+            <h3>Premium Materials</h3>
+            <p>
+              Our trombones use the shiniest brass which is sourced locally.
+              This will increase the longevity of your purchase.
+            </p>
+          </div>
+        </article>
+
+        <article class="features-article">
+          <i class="fas fa-truck fa-3x"></i>
+          <div>
+            <h3>Fast Shipping</h3>
+            <p>
+              We make sure you recieve your trombone as soon as we have finished
+              making it. We also provide free returns if you are not satisfied.
+            </p>
+          </div>
+        </article>
+
+        <article class="features-article">
+          <i class="fas fa-battery-full fa-3x"></i>
+          <div>
+            <h3>Quality Assurance</h3>
+            <p>
+              For every purchase you make, we will ensure there are no damages
+              or faults and we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section id="how-it-works">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="pricing">
+        <article class="pricing-article">
+          <h3>TENOR TROMBONE</h3>
+          <h2>$600</h2>
+          <p>Lorem, ipsum.</p>
+          <p>Lorem, ipsum.</p>
+          <p>Lorem, ipsum dolor.</p>
+          <p>Lorem, ipsum.</p>
+          <button type="submit">SELECT</button>
+        </article>
+        <article class="pricing-article">
+          <h3>BASS TROMBONE</h3>
+          <h2>$900</h2>
+          <p>Lorem, ipsum.</p>
+          <p>Lorem, ipsum.</p>
+          <p>Lorem, ipsum dolor.</p>
+          <p>Lorem, ipsum.</p>
+          <button type="submit">SELECT</button>
+        </article>
+        <article class="pricing-article">
+          <h3>VALVE TROMBONE</h3>
+          <h2>$1200</h2>
+          <p>Plays similar to a Trumpet</p>
+          <p>Great for Jazz Bands</p>
+          <p>Lorem, ipsum dolor.</p>
+          <p>Lorem, ipsum.</p>
+          <button type="submit">SELECT</button>
+        </article>
+      </section>
+      <footer id="footer">
+        <div id="footer-wrapper">
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <h6>Copyright 2016, Original Trombones</h6>
+        </div>
+      </footer>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" async></script>
+  </body>
+</html>
